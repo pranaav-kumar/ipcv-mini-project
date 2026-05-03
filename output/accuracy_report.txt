@@ -1,0 +1,19 @@
+ILLEGAL PARKING ZONE VIOLATION DETECTION – ACCURACY REPORT
+============================================================
+
+Dataset root  : /home/pranaav/Downloads/pklot-dataset
+Frames used   : 1000
+Violation rule: >= 10 consecutive occupied frames
+Detect thresh : 10% zone coverage
+GT threshold  : 18% zone coverage
+
+Zone                             Acc    Prec     Rec      F1
+------------------------------------------------------------
+Zone-A (No Parking)            89.5%   32.3%  100.0%   48.8%
+Zone-B (No Parking)            88.6%   20.3%  100.0%   33.7%
+Zone-C (No Parking)            90.0%   57.8%  100.0%   73.3%
+Zone-D (No Parking)            90.0%   51.0%  100.0%   67.5%
+------------------------------------------------------------
+OVERALL (mean)                 89.5%
+
+Total violation events : 17
